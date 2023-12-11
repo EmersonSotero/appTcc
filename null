@@ -1,0 +1,40 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.78.0
+Flutter extension: 3.78.0 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.85.0
+
+
+Logging Categories:
+    FlutterDaemon
+
+Fri Dec 08 2023 [23:29:55 GMT-0300 (Horário Padrão de Brasília)] Log file started
+[23:29:55] [FlutterDaemon] [Info] Spawning C:\flutter\bin\flutter.bat with args ["daemon"]
+[23:29:55] [FlutterDaemon] [Info] ..  in C:\flutter
+[23:29:55] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\flutter"}}
+[23:29:55] [FlutterDaemon] [Info]     PID: 7128
+[23:29:55] [FlutterDaemon] [Info] ==> [{"id":"1","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\solarpower_tcc"}}]
+[23:30:00] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":14896}}]
+[23:30:00] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[23:30:00] [FlutterDaemon] [Info] ==> [{"id":"3","method":"emulator.getEmulators"}]
+[23:30:02] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"A new version of Flutter is available!\n\nTo update to the latest version, run \"flutter upgrade\"."}}]
+[23:30:02] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[23:30:02] [FlutterDaemon] [Info] <== [{"id":"1","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:30:02] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[23:30:02] [FlutterDaemon] [Info] <== [{"id":"3","result":[{"id":"Nexus_5_API_24","name":"Nexus 5 API 24","category":"mobile","platformType":"android"}]}]
+[23:30:06] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [versÆo 10.0.22621.2792]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[23:30:06] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 119.0.6045.200","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[23:30:06] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 119.0.2151.97","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[23:30:09] [FlutterDaemon] [Info] ==> [{"id":"4","method":"emulator.getEmulators"}]
+[23:30:09] [FlutterDaemon] [Info] <== [{"id":"4","result":[{"id":"Nexus_5_API_24","name":"Nexus 5 API 24","category":"mobile","platformType":"android"}]}]
+[23:30:10] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.launch","params":{"emulatorId":"Nexus_5_API_24","coldBoot":false}}]
+[23:30:13] [FlutterDaemon] [Info] <== [{"id":"5"}]
+[23:30:17] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Nexus_5_API_24","sdk":"Android 7.0 (API 24)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[23:30:17] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\solarpower_tcc"}}]
+[23:30:17] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:30:17] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\solarpower_tcc"}}]
+[23:30:17] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:30:17] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\solarpower_tcc"}}]
+[23:30:17] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
